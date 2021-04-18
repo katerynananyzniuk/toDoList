@@ -1,0 +1,53 @@
+.toDoList{
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    margin:auto;
+    padding: 10px 0;
+}
+.toDo-element{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.toDo-element:hover{
+    background-color: aliceblue;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+}
+.toDo-mark{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+}
+.toDo-text{
+    padding-left:20px;
+}
+.toDo-element{
+    font-size: 14px;
+    color: black;
+}
+button[class^="button-"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin: 0 5px;
+    font-size: 18px;
+    background-color:aliceblue;
+}
+button[class^="button-"]:hover{
+    background-color: lightgray;
+    border-color:white;
+}
+.checked{
+    background-color: grey;
+}
+input{
+    border:none;
+    width: fit-content;
+}
